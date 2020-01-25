@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions for R Programming Week 2 assignment 2. These functions
+# cache the computationally expensive matrix inversion operation.
 
 ## Write a short comment describing this function
 # Following the example in the assignment, we create a 4-element
