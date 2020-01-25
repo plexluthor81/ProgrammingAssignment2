@@ -36,3 +36,9 @@ cacheSolve <- function(x, ...) {
   x$setinv(i)
   i
 }
+
+# Testing Code:
+m = matrix(c(1,0,0,0,1,0,0,0,1),3,3)
+cm <- makeCacheMatrix(m)
+cacheSolve(cm)
+cacheSolve(cm) # This one should print out the "getting cached data message"
